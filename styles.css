@@ -80,6 +80,7 @@ ul li{
 /*inicio.html*/
 
 .inicio h1{
+    padding:1%;
     margin:2%;
     box-shadow: 7px 13px 37px #000;
     width: 50%;
@@ -93,3 +94,116 @@ ul li{
 }
 
 /*actividades.html*/
+
+.actividades h1{
+    padding:1%;
+    margin:2%;
+    box-shadow: 7px 13px 37px #000;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.actividades h2{
+    margin:2%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.actividades ul li{
+    display: inline-block;
+    box-shadow: 7px 13px 37px #000;
+    margin:1%;
+    padding:10px;
+}
+
+.actividades table{
+    margin:4%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: #000;
+
+}
+
+.actividades td{
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    margin:1%;
+}
+
+.actividades th{
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    margin:1%;
+}
+
+.actividades img{
+    margin:1%;
+    width: 50%;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.horario{
+    position: relative;
+   left: 15%;
+   top: 50%;
+    width: 60%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: #000;
+}
+
+.horario td{
+    padding: 1%;
+}
+
+/*cuotas.html*/
+
+.cuotas{
+    margin: 3%;
+}
+
+.cuotas h1{
+    margin:2%;
+    box-shadow: 7px 13px 37px #000;
+    width: 50%;
+    margin-left: 25%;
+    padding: 2%;
+}
+
+.cuotas table{
+    position: relative;
+   left: 15%;
+   top: 50%;
+    width: 60%;
+    height: 20%;
+    margin:4%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: #000;
+
+}
+
+.cuotas td{
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    margin:1%;
+    padding:2%;
+}
+
+.cuotas th{
+    padding:2%;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    margin:1%;
+}
+
+.cuotas img{
+    width:35%;
+    height:30%;
+}
+
+/*donde.html*/
