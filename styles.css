@@ -14,10 +14,10 @@ body{
     background-size: 100%;
     background-attachment: fixed;
 }
-
 /*Ajustes logos*/
 
 .logo{
+    margin: auto;
     margin-inline:  20%;
     display:inline;
     text-align: center;
@@ -256,6 +256,11 @@ ul li ul li:hover{
     padding: 2%;
 }
 
+.dond{
+    margin:2%;
+}
+
+
 
 /*contacto*/
 
@@ -272,6 +277,10 @@ ul li ul li:hover{
 }
 
 /*trabajar*/
+
+.rellena{
+    margin:1%;
+}
 
 .trabajar{
     margin: 3%;
@@ -299,21 +308,65 @@ ul li ul li:hover{
     padding: 2%;
 }
 
-.conocenos img{
-    width: 23%;
+.h3{
+    margin:2%;
+    box-shadow: 7px 13px 37px #000;
+    width: 20%;
+    margin-left: 39%;
+    padding: 1%;
+}
+
+.empresa{
+    width: 18%;
     height: 10%;
+    margin:1%;
 }
 
 /*formularios*/
 
-label, input{
-    text-align: justify;
+.form{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    margin-top:4%;
+    margin-bottom: 2%;
+    display: block;
+}
+
+fieldset{
+    margin:auto;
+    margin-bottom: 2%;
+    width: 40%;
 }
 
 input{
-    display: inline-block;
+    margin:auto;
+    display: block;
     background-color: rgba(240, 248, 255, 0.616);
     color: #0026ff;
-    width: 10%;
+}
+
+select{
+    margin-bottom: 2%;
+}
+
+.edad{
+    margin-bottom: 4%;
+}
+
+textarea{
+    background-color: rgba(240, 248, 255, 0.616);
+    color: #0026ff;
+    width: 80%;
     padding: 5px;
+    margin:2%;
+}
+
+.contenedor{
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
