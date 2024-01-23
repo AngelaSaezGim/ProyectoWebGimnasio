@@ -328,12 +328,14 @@ ul li ul li:hover{
     display: block;
     justify-content: center;
     align-items: center;
+
 }
 
 label{
     margin-top:4%;
     margin-bottom: 2%;
     display: block;
+    margin:1%;
 }
 
 fieldset{
@@ -344,9 +346,12 @@ fieldset{
 
 input{
     margin:auto;
+    margin-bottom: 2%;
     display: block;
     background-color: rgba(240, 248, 255, 0.616);
     color: #0026ff;
+    width: 30%;
+    padding: 5px;
 }
 
 select{
@@ -365,8 +370,13 @@ textarea{
     margin:2%;
 }
 
+input[type=radio]{
+
+    margin-bottom: 10px;
+}
+
 .contenedor{
-    display: flex;
-  justify-content: center;
-  align-items: center;
+    margin: auto;
+    text-align: left;
+    padding-left: 20%;
 }
