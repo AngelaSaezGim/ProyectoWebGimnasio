@@ -1,6 +1,6 @@
 # ProyectoWebGimnasio
 
- Uso;
+ USO;
  
 -> HTML
  
